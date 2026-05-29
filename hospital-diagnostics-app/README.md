@@ -1,16 +1,27 @@
-# React + Vite
+# Hospital Management & Preliminary Diagnostics System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+This repository contains Phase 2 of the CSCI390 Web Programming project. It is a responsive frontend web application built to streamline hospital intake processes, feature preliminary diagnostic tools, and manage medical staff authentication. 
 
-Currently, two official plugins are available:
+## Features
+- **Responsive UI:** Fully functional on mobile, tablet, and desktop.
+- **Client-side Routing:** Fast, seamless navigation across 6 views (Home, About, Services, Contact, Login, Register).
+- **Modern Styling:** Designed cleanly with Tailwind CSS for optimal UX.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Setup Instructions
+To run this project locally, ensure you have Node.js installed.
 
-## React Compiler
+1. Clone the repository:
+   `git clone https://github.com/insergant/hospital-diagnostics-app.git`
+2. Navigate to the project directory:
+   `cd hospital-diagnostics-app`
+3. Install dependencies:
+   `npm install`
+4. Start the development server:
+   `npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Screenshots
+*(Add images of your UI here by dragging and dropping them into GitHub's editor)*
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+This project is live at: [Insert Your Vercel/Netlify Link Here]
